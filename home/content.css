@@ -130,7 +130,6 @@
 }
 
 footer {
-   
     width: 100%;
     margin: auto;
     background-color: #0d334a;
@@ -247,14 +246,12 @@ footer {
     }
 
     .info-text h3 {
-        font-size: 2.8rem;
-        text-align: center;
+        font-size: 3.5rem;
+        padding: 0px 20px;
     }
     
     .info-text p {
-        color: blue;
-        font-size: 2rem;
-        text-align: center;
+        font-size: 2.5rem;
     }  
 
     .info-img {
@@ -283,6 +280,10 @@ footer {
         width: 50%;
     }
 
+    .cards-link {
+        margin: 30px 0;
+    }
+
     .card-link a h3 {
         font-size: 2.7rem;
         padding-bottom: 5px;
@@ -296,6 +297,7 @@ footer {
         width: 200px;
         height: 200px;
         margin: 15px;
+        box-shadow: 5px 5px 8px  rgba(0, 0, 0, 0.399);
     }
 
     .card-link i {
@@ -303,47 +305,38 @@ footer {
         padding-bottom: 10px;
         
     }
-}
 
-/*
-.slogan {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 40px;
-}
+    .info-baner {
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+        
+    }
 
-.slogan h1 {
-    color: #2b2ef6;
-    font-size: 7rem;
-    text-transform: uppercase;
-}
+    .info-img {
+        align-items: center;
+        justify-content: center;
+    }
 
-.slogan h2{
-    color: #f66212;
-    font-size: 4rem;
-    text-align: left;
-    width: 55%;
-}
+    .info-baner img {
+        width: 450px;
+    }
 
-.container-main {
-    padding-top: 100px;
-    display: flex;
-    max-width: 2000px;
-    width: 100%;
-    margin: auto;
-    background-color: rgba(206, 241, 228, 0.63);
-}
+    .info-text {
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
 
-.main-baner {
-    padding-top: 50px;
-    display: flex;
-   
-    margin: auto;
-    align-items: initial;
-    height: 600px;
-    max-width: 1400px;
-    width: 100%;
-    background-image: url("../img/banner-index-1200.jpg");
-    background-size: cover;
+    .info-text h3 {
+        font-size: 4rem;
+        width: 100%;
+    }
+    
+    .info-text p {
+        font-size: 3rem;
+        width: 100%;
+    }  
+    
 }
