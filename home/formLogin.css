@@ -101,6 +101,7 @@ html {
   text-decoration: none;
   align-items: center;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .campos a:hover {
