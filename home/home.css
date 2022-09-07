@@ -25,6 +25,7 @@ header {
     left: 0;
     margin: auto;
     background-color: #FFF;
+    border-bottom: 1px solid  rgba(193, 184, 184, 0.504);
 }
 
 nav {
@@ -35,6 +36,7 @@ nav {
     height: 100px;
     max-width: 1200px;
     margin: auto;
+   
 }
 
 
